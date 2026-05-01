@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT Green Alloy Nusantara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =====================
+       NAVBAR
+       ===================== -->
+  <nav>
+
+<a class="logo" href="#">
+    <img src="assets\Logo PT. Green Alloy Nusantara.png" class="logo-icon" alt="logo">
+    <div class="logo-text">
+        <span class="brand">PT. GREEN</span>
+        <span class="sub">ALLOY NUSANTARA</span>
+    </div>
+</a>
+
+    <ul class="nav-links">
+      <li><a href="#" class="active" id="nav-home"    onclick="showPage('home')">Home</a></li>
+      <li><a href="#"               id="nav-about"    onclick="showPage('about')">About Us</a></li>
+      <li><a href="#"               id="nav-products" onclick="showPage('products')">Products</a></li>
+      <li><a href="#"               id="nav-contact"  onclick="showPage('contact')">Contact</a></li>
+      <li><a href="#" class="btn-contact"             onclick="showPage('contact')">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- =====================
+       HOME PAGE
+       ===================== -->
+  <div class="page active" id="page-home">
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">About Us</div>
+        <h1>Exporters of<br> Ferrous<span> and</span> Non-Ferrous</h1>
+        <p>Green Alloy Nusantara is a trusted exporter of ferrous and non-ferrous scrap metals, 
+          supplying high-quality materials for industrial needs while meeting international standards.</p>
+        <a href="#" class="btn-primary" onclick="showPage('products')">
+          View Products <span class="arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-home-about">
+      <div class="about-left fade-in">
+        <div class="section-label">About Us</div>
+        <h2>Building a Sustainable Future<br>Through <span>Scrap Metal</span> Solutions</h2>
+        <p>Green Alloy Nusantara provides quality scrap metal products with far above local
+           mining and written 8 purity and international standards.</p>
+        <a class="btn-primary" href="#" onclick="showPage('products')">
+          View Products <span class="arrow">→</span>
+        </a>
+      </div>
+      <div class="about-right fade-in">
+        <div class="product-card-sm">
+          <div class="card-header"><h4>Alumunium Wheel Scrap</h4></div>
+          <div class="card-body">High-quality aluminium wheel scrap sourced from automotive industries, 
+            ideal for recycling and remelting processes with consistent composition and purity.</div>
+        </div>
+        <div class="product-card-sm">
+          <div class="card-header"><h4>Brass Scrap</h4></div>
+          <div class="card-body">Premium brass scrap collected from industrial and manufacturing sources, 
+            offering excellent conductivity and durability for various metal applications.</div>
+        </div>
+        <div class="product-card-sm">
+          <div class="card-header"><h4>Copper Millbery Scrap</h4></div>
+          <div class="card-body">Top-grade copper millberry scrap with high purity, 
+            widely used for electrical, wiring, and industrial manufacturing needs.</div>
+        </div>
+        <div class="product-card-sm">
+          <div class="card-header"><h4>Zinc Ash From Galvanising Industry</h4></div>
+          <div class="card-body">Zinc ash generated from galvanizing processes, 
+            suitable for zinc recovery and reuse in industrial applications with efficient material value</div>
+        </div>
+        <div class="product-card-sm">
+          <div class="card-header"><h4>Zinc Scrap</h4></div>
+          <div class="card-body">High-quality zinc scrap sourced from various industrial sectors, 
+            ideal for recycling and reprocessing in galvanizing and alloy production.</div>
+        </div>
+        <div class="product-card-sm">
+          <div class="card-header"><h4>Alumunium UBC Scrap</h4></div>
+          <div class="card-body">Used Beverage Can (UBC) aluminium scrap, 
+            widely recycled material known for its lightweight properties and high reusability in manufacturing.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-products-dark">
+      <div class="section-title">
+        <h2>Our Products</h2>
+        <p>High quality scrap metal solutions for every industry</p>
+      </div>
+      <div class="products-grid">
+        <div class="prod-card fade-in">
+          <img src="assets\Alumunium Wheel Scarp.png" alt="Ferrous" />
+          <div class="prod-info"><h3>Alumunium Wheel Scrap</h3><p>High-grade aluminium scrap from automotive wheels</p></div>
+        </div>
+        <div class="prod-card fade-in">
+          <img src="assets\Brass Scrap.png" alt="Aluminium" />
+          <div class="prod-info"><h3>Brass Scrap<p>Premium brass scrap for industrial applications</p></div>
+        </div>
+        <div class="prod-card fade-in">
+          <img src="assets\Copper Milberry Scarp.png" alt="Copper" />
+          <div class="prod-info"><h3>Copper Milberry Scrap</h3><p>High-purity copper scrap (Millberry grade 99.9%)</p></div>
+        </div>
+        <div class="prod-card fade-in">
+          <img src="assets/Zinc Ash From Galvanising Industry.png" alt="Brass" />
+          <div class="prod-info"><h3>Zinc Ash From Galvanising Industry</h3><p>Recovered zinc ash from galvanizing processes</p></div>
+        </div>
+        <div class="prod-card fade-in">
+          <img src="assets\Zinc Scarp.png" alt="Copper" />
+          <div class="prod-info"><h3>Zinc Scrap</h3><p>Recyclable zinc scrap for alloy and galvanizing use</p></div>
+        </div>
+        <div class="prod-card fade-in">
+          <img src="assets\Alumunium UBC Scarp.png" alt="Copper" />
+          <div class="prod-info"><h3>Alumunium UBC Scrap</h3><p>Recycled aluminium cans (Used Beverage Can scrap)</p></div>
+        </div>
+      </div>
+      
+    </section>
+
+    <div class="stats-section">
+      <div class="stat-item fade-in"><h3>500+</h3><p>Industry Clients</p></div>
+      <div class="stat-item fade-in"><h3>15+</h3><p>Years Experience</p></div>
+      <div class="stat-item fade-in"><h3>99%</h3><p>Purity Standard</p></div>
+      <div class="stat-item fade-in"><h3>20+</h3><p>Metal Categories</p></div>
+    </div>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-brand-name">GREEN ALLOY NUSANTARA</span>
+          <span class="footer-brand-sub">PT GREEN ALLOY NUSANTARA</span>
+          <p>Leading provider of high-quality scrap metal solutions for industrial use, meeting international purity standards.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About Us</a></li>
+            <li><a href="#" onclick="showPage('products')">Products</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Alumunium Wheel Scrap</a></li>
+            <li><a href="#">Brass Scrap</a></li>
+            <li><a href="#">Copper Milberry Scrap</a></li>
+            <li><a href="#">Zinc Ash From Galvanising Industry</a></li>
+            <li><a href="#">Zinc Scrap</a></li>
+            <li><a href="#">Alumunium UBC Scrap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Jakarta, Indonesia</a></li>
+            <li><a href="#">pt.greenalloynusantara26@gmail.com</a></li>
+            <li><a href="#">+62 85285033705</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <span>PT Green Alloy Nusantara</span>. All Rights Reserved.</p>
+        <p>Designed for sustainable metal solutions</p>
+      </div>
+    </footer>
+  </div><!-- /#page-home -->
+
+
+  <!-- =====================
+       ABOUT US PAGE
+       ===================== -->
+  <div class="page" id="page-about">
+
+    <div class="page-hero">
+      <h1>About Us</h1>
+      <div class="breadcrumb">Home &rsaquo; <span>About Us</span></div>
+    </div>
+
+    <section class="about-section">
+      <div>
+        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=700&q=80" alt="Green Alloy Factory" />
+      </div>
+      <div class="about-text fade-in">
+        <div class="section-label">Who We Are</div>
+        <h2>Building a Sustainable Future Through <span>Scrap Metal</span> Solutions</h2>
+        <p>Green Alloy Nusantara is a trusted exporter of ferrous and non-ferrous scrap metals, 
+          delivering high-quality materials to meet the demands of both domestic and international industries.</p>
+        <p>With a strong commitment to quality, reliability, and sustainability, we ensure that every product meets strict international standards. 
+          Our extensive network and efficient supply chain allow us to provide consistent volume, competitive pricing, and timely delivery.</p>
+        <ul class="feature-list">
+          <li>International Purity &amp; Quality Standards</li>
+          <li>Trusted by 500+ Industrial Clients</li>
+          <li>Comprehensive Metal Categories</li>
+          <li>Environmentally Responsible Processing</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="vision-mission">
+      <div class="vm-card fade-in">
+        <h3>🎯 Our Vision</h3>
+        <p>To become a globally recognized exporter of ferrous and non-ferrous metals, 
+          known for quality excellence, sustainable practices, and long-term partnerships.</p>
+      </div>
+      <div class="vm-card fade-in">
+        <h3>🚀 Our Mission</h3>
+        <p>We are dedicated to:</p>
+        <ul>
+          <li>To supply high-quality scrap metals that meet international standards</li>
+          <li>To build strong and long-lasting relationships with clients worldwide</li>
+          <li>To ensure reliable delivery through an efficient and transparent supply chain</li>
+          <li>To promote environmentally responsible recycling and metal sourcing</li>
+          <li>To continuously improve service, quality, and customer satisfaction</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="stats-section">
+      <div class="stat-item"><h3>500+</h3><p>Industry Clients</p></div>
+      <div class="stat-item"><h3>15+</h3><p>Years Experience</p></div>
+      <div class="stat-item"><h3>99%</h3><p>Purity Standard</p></div>
+      <div class="stat-item"><h3>20+</h3><p>Metal Categories</p></div>
+    </div>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-brand-name">GREEN ALLOY NUSANTARA</span>
+          <span class="footer-brand-sub">PT GREEN ALLOY NUSANTARA</span>
+          <p>Leading provider of high-quality scrap metal solutions for industrial use.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About Us</a></li>
+            <li><a href="#" onclick="showPage('products')">Products</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Alumunium Wheel Scrap</a></li>
+            <li><a href="#">Brass Scrap</a></li>
+            <li><a href="#">Copper Milberry Scrap</a></li>
+            <li><a href="#">Zinc Ash From Galvanising Industry</a></li>
+            <li><a href="#">Zinc Scrap</a></li>
+            <li><a href="#">Alumunium UBC Scrap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Jakarta, Indonesia</a></li>
+            <li><a href="#">pt.greenalloynusantara26@gmail.com</a></li>
+            <li><a href="#">+62 85285033705</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <span>PT Green Alloy Nusantara</span>. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div><!-- /#page-about -->
+
+
+  <!-- =====================
+       PRODUCTS PAGE
+       ===================== -->
+  <div class="page" id="page-products">
+
+    <div class="page-hero"
+         style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80');">
+      <h1>Our Products</h1>
+      <div class="breadcrumb">Home &rsaquo; <span>Products</span></div>
+    </div>
+
+    <section class="products-section">
+      <div class="section-title light" style="text-align:left;">
+        <h2>High Quality Scrap Metal</h2>
+        <p>All products meet international purity standards for industrial use</p>
+      </div>
+      <div class="products-full-grid">
+
+        <div class="product-full-card fade-in">
+          <img src="assets\Alumunium Wheel Scarp.png" alt="Alumunium Wheel Scrap" />
+          <div class="pfc-body">
+            <span class="pfc-tag">Alumunium Wheel Scrap</span>
+            <h3>Alumunium Wheel Scrap</h3>
+            <p>High-quality aluminium wheel scrap sourced from used automotive rims. 
+              This material is clean, durable, and ideal for recycling into new aluminium products. 
+              Known for its excellent strength-to-weight ratio and corrosion resistance, it is highly valued in the secondary metal market. 
+              Perfect for smelters and manufacturers seeking consistent, premium-grade aluminium input.</p>
+            <div class="pfc-footer">
+              <span class="purity-badge">Purity: 98%+</span>
+              <button class="btn-sm" onclick="showPage('contact')">Get Quote</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-full-card fade-in">
+          <img src="assets\Brass Scrap.png" alt="Brass Scrap" />
+          <div class="pfc-body">
+            <span class="pfc-tag">Brass Scrap</span>
+            <h3>Brass Scrap</h3>
+            <p>Premium-grade brass scrap collected from industrial and commercial sources. 
+              This material offers excellent conductivity, corrosion resistance, and reusability. 
+              Carefully sorted to ensure high purity, our brass scrap is ideal for remelting and 
+              manufacturing applications, delivering both economic and environmental value.</p>
+            <div class="pfc-footer">
+              <span class="purity-badge">Purity: 97%+</span>
+              <button class="btn-sm" onclick="showPage('contact')">Get Quote</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-full-card fade-in">
+          <img src="assets/Copper Milberry Scarp.png" alt="Copper Milberry Scrap" />
+          <div class="pfc-body">
+            <span class="pfc-tag">Copper Milberry Scrap</span>
+            <h3>Copper Milberry Scrap</h3>
+            <p>Top-grade copper millberry scrap with high conductivity and minimal impurities. 
+              Recognized for its bright, clean appearance, this copper is widely used in electrical and industrial applications. 
+              It provides superior recycling efficiency and maximum return value, making it a preferred choice for refiners and manufacturers.</p>
+            <div class="pfc-footer">
+              <span class="purity-badge">Purity: 96%+</span>
+              <button class="btn-sm" onclick="showPage('contact')">Get Quote</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-full-card fade-in">
+          <img src="assets\Zinc Ash From Galvanising Industry.png" alt="Zinc Ash From Galvanising Industry" />
+          <div class="pfc-body">
+            <span class="pfc-tag">Zinc Ash From Galvanising Industry</span>
+            <h3>Zinc Ash From Galvanising Industry</h3>
+            <p>By-product from the galvanizing process, rich in zinc content. 
+              This material is carefully collected and processed to maintain quality and consistency. 
+              Ideal for zinc recovery and reuse in industrial applications, offering a cost-effective 
+              and sustainable solution for metal recycling operations.</p>
+            <div class="pfc-footer">
+              <span class="purity-badge">Purity: 99%+</span>
+              <button class="btn-sm" onclick="showPage('contact')">Get Quote</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-full-card fade-in">
+          <img src="assets\Zinc Scarp.png" alt="Zinc Scrap" />
+          <div class="pfc-body">
+            <span class="pfc-tag">Zinc Scrap</span>
+            <h3>Zinc Scrap</h3>
+            <p>Mixed zinc scrap sourced from various industrial components. 
+              This material is suitable for recycling and reprocessing into new zinc-based products. 
+              With good resistance to corrosion and versatile applications, it is an excellent choice for 
+              manufacturers looking for reliable secondary raw materials.</p>
+            <div class="pfc-footer">
+              <span class="purity-badge">Purity: 97%+</span>
+              <button class="btn-sm" onclick="showPage('contact')">Get Quote</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-full-card fade-in">
+          <img src="assets\Alumunium UBC Scarp.png" alt="Alumunium UBC Scrap" />
+          <div class="pfc-body">
+            <span class="pfc-tag">Alumunium UBC Scrap</span>
+            <h3>Alumunium UBC Scrap</h3>
+            <p>Compressed and cleaned aluminium beverage can scrap, ready for efficient recycling. 
+              This lightweight yet high-value material is widely used in the production of new aluminium products. 
+              Environmentally friendly and cost-effective, UBC scrap is a key component in sustainable manufacturing 
+              and circular economy practices.</p>
+            <div class="pfc-footer">
+              <span class="purity-badge">Grade: Industrial</span>
+              <button class="btn-sm" onclick="showPage('contact')">Get Quote</button>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-brand-name">GREEN ALLOY NUSANTARA</span>
+          <span class="footer-brand-sub">PT GREEN ALLOY NUSANTARA</span>
+          <p>Leading provider of high-quality scrap metal solutions for industrial use.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About Us</a></li>
+            <li><a href="#" onclick="showPage('products')">Products</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Aluminium Wheel Scrap</a></li>
+            <li><a href="#">Brass Scrap</a></li>
+            <li><a href="#">Copper Milberry Scrap</a></li>
+            <li><a href="#">Zinc Ash From Galvanising Industry</a></li>
+            <li><a href="#">Zinc Scrap</a></li>
+            <li><a href="#">Alumunium UBC Scrap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Jakarta, Indonesia</a></li>
+            <li><a href="#">pt.greenalloynusantara26@gmail.com</a></li>
+            <li><a href="#">+62 85285033705</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <span>PT Green Alloy Nusantara</span>. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div><!-- /#page-products -->
+
+
+  <!-- =====================
+       CONTACT PAGE
+       ===================== -->
+  <div class="page" id="page-contact">
+
+    <div class="page-hero"
+         style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1400&q=80');">
+      <h1>Contact Us</h1>
+      <div class="breadcrumb">Home &rsaquo; <span>Contact Us</span></div>
+    </div>
+
+    <section class="contact-section">
+      <div class="contact-info fade-in">
+        <h2>Get In Touch With Us</h2>
+        <p>Have a question about our products or want to request a quote?
+           Our team is ready to assist you with all your scrap metal needs.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>Citihub Lt.3, Jl Boulevard Barat</p>
+            <p>Kelapa Gading, Jakarta Utara 14240</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+62 85285033705</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>pt.greenalloynusantara26@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕒</div>
+          <div>
+            <h4>Business Hours</h4>
+            <p>Monday – Friday: 08:00 – 17:00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form fade-in">
+        <h3>Send Us a Message</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" placeholder="Your full name" id="inp-name" />
+          </div>
+          <div class="form-group">
+            <label>Company Name</label>
+            <input type="text" placeholder="Your company" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Email Address *</label>
+            <input type="email" placeholder="your@email.com" id="inp-email" />
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+62 xxx xxxx xxxx" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Product Interest</label>
+          <select>
+            <option value="">Select a product...</option>
+            <option>Ferrous Metal Scrap</option>
+            <option>Aluminium Scrap</option>
+            <option>Brass Scrap</option>
+            <option>Copper Scrap</option>
+            <option>Stainless Steel Scrap</option>
+            <option>Mixed Metal Alloy</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message *</label>
+          <textarea placeholder="Tell us about your requirements, quantity needed, and any other details..."
+                    id="inp-msg"></textarea>
+        </div>
+        <button class="btn-submit" onclick="submitForm()">Send Message →</button>
+      </div>
+    </section>
+
+    <div class="map-section">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2898939!2d106.8456!3d-6.1321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDcnNTUuNiJTIDEwNsKwNTAnNDQuMiJF!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
+        allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-brand-name">GREEN ALLOY NUSANTARA</span>
+          <span class="footer-brand-sub">PT GREEN ALLOY NUSANTARA</span>
+          <p>Leading provider of high-quality scrap metal solutions for industrial use.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('about')">About Us</a></li>
+            <li><a href="#" onclick="showPage('products')">Products</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Alumunuium Wheek Scrap</a></li>
+            <li><a href="#">Brass Scrap</a></li>
+            <li><a href="#">Copper Milberry Scrap</a></li>
+            <li><a href="#">Zinc Ash From Galvanising Industry</a></li>
+            <li><a href="#">Zinc Scrap</a></li>
+            <li><a href="#"> Alumunium YBC Scrap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Jakarta, Indonesia</a></li>
+            <li><a href="#">pt.greenalloynusantara26@gmail.com</a></li>
+            <li><a href="#">+62 85285033705</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <span>PT Green Alloy Nusantara</span>. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div><!-- /#page-contact -->
+
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">✅ Pesan terkirim! Kami akan segera menghubungi Anda.</div>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
